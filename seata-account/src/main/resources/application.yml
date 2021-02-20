@@ -52,7 +52,7 @@ seata:
 #            exceptionRate: 100
     service:
         vgroup-mapping:
-            default: fin-seata-server # default是自定义的事务分组名称，fsp_tx是tc注册到注册中心的服务名称
+            default: seata-server # default是自定义的事务分组名称，fsp_tx是tc注册到注册中心的服务名称
 #        grouplist:
 #            default: 127.0.0.1:8091 # 	仅注册中心为file时使用
         enable-degrade: false # 是否启用降级
