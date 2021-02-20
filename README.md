@@ -1,4 +1,4 @@
-全网最简单的SpringCloud整合Seata仓库
+全网最简单的SpringCloud整合分布式事务Seata仓库
 
 切换 master-success 分支 
 1. db文件夹下面有四个SQL文件，直接运行即可
